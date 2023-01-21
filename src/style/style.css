@@ -49,7 +49,6 @@ header{
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
-
     cursor: pointer;
 }
 
@@ -57,3 +56,23 @@ header{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
+
+table{
+    width: 900px;
+    height: 45px;
+
+    margin: 0 auto;
+    margin-top: 48px;
+    padding-top: 10px;
+
+    background-color: #092D38;
+
+    border-radius: 8px 8px 0px 0;
+}
+
+thead tr{
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+

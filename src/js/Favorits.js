@@ -1,0 +1,1 @@
+import { Favorit } from './Github.js'

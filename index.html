@@ -18,21 +18,35 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap"
       rel="stylesheet"
     />
-    
   </head>
   <body>
-    <header>
-      <img src="./public/img/Gitfav.svg" alt="Logo" />
-      <div class="search">
-        <input
-          type="text"
-          placeholder="Enter the Github username you want to bookmark"
-        />
+    <div>
+      <header>
+        <img src="./public/img/Gitfav.svg" alt="Logo" />
+        <div class="search">
+          <input
+            type="text"
+            placeholder="Enter the Github username you want to bookmark"
+          />
 
-        <button>
-          <img src="./public/img/star.svg" alt="Star" /> Favorites
-        </button>
-      </div>
-    </header>
+          <button>
+            <img src="./public/img/star.svg" alt="Star" /> Favorites
+          </button>
+        </div>
+      </header>
+      <table>
+        <thead>
+          <tr>
+            <th>User</th>
+            <th>Repositórios</th>
+            <th>Seguidores</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <script src="./src/js/main.js"></script>
   </body>
 </html>
